@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 python run_experiments.py
 ```
-4. Eksperymenty zostaną uruchomione, a wyniki będą dostępne w postaci mapy ciepła i wykresu energii. Możesz również wygenerować animację ewolucji temperatury.
+4. Eksperymenty zostaną uruchomione, a wyniki będą dostępne w postaci mapy ciepła i wykresu energii.
 
 5. Możesz wygenerować wykresy, mapy ciepła oraz wykresy energii używając metod:
 
