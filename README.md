@@ -24,29 +24,31 @@ Projekt symuluje rozprzestrzenianie się ciepła w trzech pokojach, z uwzględni
 
 Aby zainstalować wymagane biblioteki, uruchom:
 
+```
 pip install -r requirements.txt
-
+```
 
 ## Jak uruchomić projekt
 
 1. Skopiuj pliki `kod.py`, `run_experiments.py` oraz `requirements.txt` do swojego projektu.
 2. Zainstaluj wymagane biblioteki przy pomocy `pip install -r requirements.txt`.
 3. Uruchom eksperyment, wywołując plik `run_experiments.py`:
-
+```
 python run_experiments.py
-
+```
 4. Eksperymenty zostaną uruchomione, a wyniki będą dostępne w postaci mapy ciepła i wykresu energii. Możesz również wygenerować animację ewolucji temperatury.
 
 5. Możesz wygenerować wykresy, mapy ciepła oraz wykresy energii używając metod:
 
 ```python
 alg.plot_result()  # Mapa ciepła
-alg.total_energy_use()  # Całkowita energia używana```
+alg.total_energy_use()  # Całkowita energia używana
+```
 
 6. Możesz również uzyskać animację przedstawiającą ewolucję temperatury w czasie:
-
+```python
 alg.result_animated()
-
+```
 
 
 ## Parametry wejściowe
