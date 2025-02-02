@@ -38,7 +38,7 @@ python run_experiments.py
 ```
 4. Eksperymenty zostaną uruchomione, a wyniki będą dostępne w postaci mapy ciepła i wykresu energii.
 
-5. Możesz wygenerować wykresy, mapy ciepła oraz wykresy energii używając metod:
+5. Możesz wygenerować mapy ciepła oraz wykresy energii używając metod:
 
 ```python
 alg.plot_result()  # Mapa ciepła
